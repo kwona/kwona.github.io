@@ -12,7 +12,7 @@ html {
 body {
   font-size: 1.4em;
   font-family: "Inter", sans-serif;
-  color: #1B1A1A;
+  color: #363535;
 }
 
 h1 {
@@ -41,6 +41,7 @@ h4 {
   font-weight: 600;
   font-size: 1.9rem;
   line-height: 2.4rem;
+  letter-spacing: 0.02em;
 }
 
 p {
@@ -51,6 +52,7 @@ p {
 }
 
 a {
+  display: block;
   color: #1B1A1A;
   text-decoration: none;
   font-style: normal;
@@ -110,7 +112,7 @@ a:hover {
   transition: all .15s ease-in-out;
 }
 
-.nav__item:last-child {
+.nav-item:last-child {
   padding-right: 0;
 }
 
@@ -134,10 +136,15 @@ a:hover {
 
 .hero-title {
   padding-bottom: 55px;
+  color: #1B1A1A;
 }
 
 .btn {
-  padding: 10px 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding: 10px 16px;
   background: #FFFFFF;
   -webkit-box-shadow: 4px 4px 10px rgba(241, 110, 110, 0.25);
           box-shadow: 4px 4px 10px rgba(241, 110, 110, 0.25);
@@ -151,5 +158,51 @@ a:hover {
 .btn:hover {
   background: #F16E6E;
   color: #fff;
+}
+
+.projects {
+  margin-bottom: 110px;
+}
+
+.wrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 44px;
+}
+
+.thumbnail-project {
+  max-width: 428px;
+  margin-bottom: 30px;
+}
+
+.thumbnail-project-image {
+  border-radius: 8px;
+  height: 280px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.thumbnail-project-image img {
+  width: 428px;
+}
+
+.thumbnail-project-image img:hover {
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.thumbnail-project-title {
+  color: #363535;
+}
+
+.thumbnail-project-title:hover {
+  color: #F16E6E;
 }
 /*# sourceMappingURL=main.css.map */
