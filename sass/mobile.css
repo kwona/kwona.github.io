@@ -8,11 +8,32 @@
     .hero {
         padding: 0 15px; 
     }
+    .thumbnail-project {
+        width: 47%;
+    }
+    .thumbnail-project-image {
+        height: auto;
+    }
+    .thumbnail-project-image img {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 800px)  {
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        gap: unset;
+    }
 }
 
 @media only screen and (max-width: 768px)  {
     h1 {
         font-size: 2.6rem;
+    }
+    h4 {
+        font-size: 1.6rem;
     }
     .hero {
         margin: 100px 0;
@@ -20,12 +41,26 @@
     .hero-title {
         padding-bottom: 25px;
     }
+    .thumbnail-project-image {
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 530px)  {
     h1 {
         font-size: 2rem;
         line-height: 4rem;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .thumbnail-project {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 40px;
+    }
+    .thumbnail-project:last-child {
+        margin-bottom: 0;
     }
 }
 
