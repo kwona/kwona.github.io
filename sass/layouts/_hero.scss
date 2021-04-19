@@ -1,12 +1,14 @@
 .hero {
     margin: 148px 0;
 }
-.hero-content {
+.hero .container {
     max-width: 794px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+}
+.hero-content {
+    padding-left: 50px;
 }
 .hero-title {
-    padding-left: 50px;
+    padding-bottom: 55px;
 }
