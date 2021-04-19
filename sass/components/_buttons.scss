@@ -1,0 +1,16 @@
+.btn {
+    padding: 10px 14px;
+
+    background: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(241, 110, 110, 0.25);
+    border: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+
+    &:hover {
+        background: $color-primary;    
+        color: $color-primary-light;   
+    }
+}
