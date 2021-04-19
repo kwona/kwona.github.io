@@ -60,10 +60,79 @@ a {
   cursor: pointer;
 }
 
+a:hover {
+  color: #F16E6E;
+}
+
 .container {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
+}
+
+.header {
+  padding: 26px 0;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-item {
+  list-style: none;
+  padding-right: 30px;
+  color: #1B1A1A;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: #F16E6E;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.nav__item:last-child {
+  padding-right: 0;
+}
+
+.hero {
+  margin: 148px 0;
+}
+
+.hero-content {
+  max-width: 794px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-title {
+  padding-left: 50px;
 }
 
 .btn {

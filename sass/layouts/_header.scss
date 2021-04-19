@@ -1,0 +1,29 @@
+.header {
+    padding: 26px 0;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list {
+    display: flex;
+}
+.nav-item {
+    list-style: none;
+    padding-right: 30px;
+
+    color: $color-primary-dark;
+    text-decoration: none;
+
+    @include font(normal, 500, 1.6rem, 2.0rem);
+    cursor: pointer;
+    
+    &:hover {
+        color: $color-primary;
+        transition: all .15s ease-in-out;;
+    }
+}
+.nav__item:last-child {
+    padding-right: 0;
+}
