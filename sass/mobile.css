@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1024px)  {
+    .header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .projects,
+    footer,
+    .hero {
+        padding: 0 15px; 
+    }
+}
+
+@media only screen and (max-width: 768px)  {
+    h1 {
+        font-size: 2.6rem;
+    }
+    .hero {
+        margin: 100px 0;
+    }
+    .hero-title {
+        padding-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 530px)  {
+    h1 {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+}
+
+@media only screen and (max-width: 430px)  {
+    .hero .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero .container img {
+        margin-bottom: 20px;
+    }
+    .hero .container {
+        text-align: center;
+    }
+    .hero-content {
+        padding-left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 360px)  {
+    h1 {
+        font-size: 2rem;
+        line-height: 3.7rem;
+    }
+}
