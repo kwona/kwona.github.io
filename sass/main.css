@@ -147,9 +147,12 @@ a:hover {
   padding-left: 50px;
 }
 
+.title {
+  color: #1B1A1A;
+}
+
 .hero-title {
   padding-bottom: 55px;
-  color: #1B1A1A;
 }
 
 .btn {
