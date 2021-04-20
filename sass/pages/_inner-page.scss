@@ -19,3 +19,7 @@
     display: flex;
     align-items: center;
 }
+.info {
+    @include font(normal, 300, 1.9rem, 2.6rem);
+    margin: 20px 0 50px 0;
+}
