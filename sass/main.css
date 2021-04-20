@@ -243,4 +243,15 @@ a:hover {
   line-height: 2.6rem;
   margin: 20px 0 50px 0;
 }
+
+#gif {
+  width: 50%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
